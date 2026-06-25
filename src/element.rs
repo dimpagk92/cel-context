@@ -467,15 +467,6 @@ pub struct ContextSnapshot {
     pub transcripts: Vec<TranscriptEntry>,
 }
 
-/// Deprecated compatibility name for [`ContextSnapshot`].
-///
-/// `ScreenContext` was the original name from the UI/screen-first era of the
-/// crate. New code should use `ContextSnapshot`, which better reflects that the
-/// snapshot can contain metrics, logs, traces, tickets, database rows, DOM
-/// elements, accessibility facts, OCR, vision, and other streams.
-#[deprecated(note = "Use ContextSnapshot")]
-pub type ScreenContext = ContextSnapshot;
-
 /// High-fidelity context for a single element — the "zoom in" view.
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct FocusedContext {

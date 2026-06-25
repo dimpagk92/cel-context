@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.0] — 2026-06-25
+
+### Changed
+- **Breaking:** removed the deprecated `ScreenContext` type alias; use
+  [`ContextSnapshot`](https://docs.rs/cel-context/latest/cel_context/struct.ContextSnapshot.html)
+  directly.
+- MSRV raised to **1.76** (`rust-version` in `Cargo.toml`).
+
 ## [0.1.7] — 2026-06-25
 
 ### Changed

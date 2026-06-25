@@ -11,8 +11,6 @@ mod resolve;
 pub mod watchdog;
 
 pub use confidence::{ConfidenceBehavior, ConfidenceThresholds};
-#[allow(deprecated)]
-pub use element::ScreenContext;
 pub use element::{
     classify_content_role, AudioState, Bounds, BoundsRegion, ClipboardState, ConnectionEvent,
     ContentRole, ContextElement, ContextReference, ContextSnapshot, ContextSource, ElementState,
