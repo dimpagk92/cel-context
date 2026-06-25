@@ -1,5 +1,9 @@
 # cel-context
 
+[![crates.io](https://img.shields.io/crates/v/cel-context.svg)](https://crates.io/crates/cel-context)
+[![docs.rs](https://docs.rs/cel-context/badge.svg)](https://docs.rs/cel-context)
+[![CI](https://github.com/dimpagk92/cel-context/actions/workflows/ci.yml/badge.svg)](https://github.com/dimpagk92/cel-context/actions/workflows/ci.yml)
+
 Portable context snapshots for AI agents.
 
 `cel-context` gives any stream a common shape an agent can consume. Browser DOM,
@@ -49,7 +53,7 @@ the snapshot contract.
 ## Example
 
 ```sh
-cargo run -p cel-context --example context_snapshot -- --json
+cargo run --example context_snapshot -- --json
 ```
 
 The example constructs a snapshot from caller-provided stream facts. Any source
