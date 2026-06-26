@@ -50,6 +50,13 @@ they can emit.
 Those responsibilities belong in whichever runtime, adapter, or product embeds
 the snapshot contract.
 
+**Status:** v0.2.0 on [crates.io](https://crates.io/crates/cel-context).
+
+## Upgrading from 0.1.x
+
+The deprecated `ScreenContext` alias was removed in **0.2.0** — use
+`ContextSnapshot`. See the **[0.2 migration guide](https://github.com/dimpagk92/cellar/blob/sync/main-from-private-2026-06-10/docs/migration-0.2.md)**.
+
 ## Example
 
 ```sh
