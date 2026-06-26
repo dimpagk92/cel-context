@@ -55,7 +55,7 @@ the snapshot contract.
 ## Upgrading from 0.1.x
 
 The deprecated `ScreenContext` alias was removed in **0.2.0** — use
-`ContextSnapshot`. See the **[0.2 migration guide](https://github.com/dimpagk92/cellar/blob/sync/main-from-private-2026-06-10/docs/migration-0.2.md)**.
+`ContextSnapshot`. See the **[0.2 migration guide](https://github.com/dimpagk92/cellar/blob/main/docs/migration-0.2.md)**.
 
 ## Example
 
